@@ -1,5 +1,4 @@
 import { Mail, Github, Linkedin } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 export default function Contact() {
   return (
@@ -8,15 +7,7 @@ export default function Contact() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-cyan-600/10 via-transparent to-transparent" />
       </div>
       <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <motion.h2
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-3xl sm:text-4xl font-semibold text-cyan-100"
-        >
-          Let's build something futuristic
-        </motion.h2>
+        <h2 className="text-3xl sm:text-4xl font-semibold text-cyan-100">Let's build something futuristic</h2>
         <p className="mt-3 text-cyan-200/70">
           Open to collaborations, internships, and freelance projects. I reply fast.
         </p>

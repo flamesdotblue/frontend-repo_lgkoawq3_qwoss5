@@ -1,11 +1,10 @@
 import { ExternalLink, Code, Cpu, Rocket } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 const projects = [
   {
     title: 'Neon UI Library',
     desc: 'A collection of reactive, neon-styled components with smooth motion and accessibility in mind.',
-    tags: ['React', 'Tailwind', 'Framer Motion'],
+    tags: ['React', 'Tailwind', 'Neon'],
     icon: Code,
     link: '#',
   },
@@ -33,32 +32,20 @@ export default function Projects() {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.h2
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-3xl sm:text-4xl font-semibold text-cyan-100"
-        >
-          Featured Projects
-        </motion.h2>
+        <h2 className="text-3xl sm:text-4xl font-semibold text-cyan-100">Featured Projects</h2>
         <p className="mt-2 text-cyan-200/70 max-w-2xl">
           A selection of work exploring interface design, 3D, and high-performance frontends.
         </p>
 
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projects.map((p, idx) => {
+          {projects.map((p) => {
             const Icon = p.icon;
             return (
-              <motion.a
+              <a
                 key={p.title}
                 href={p.link}
                 target="_blank"
                 rel="noreferrer"
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: idx * 0.1 }}
                 className="group relative rounded-xl border border-cyan-500/20 bg-slate-950/60 p-6 overflow-hidden hover:border-cyan-300/40 transition-colors"
               >
                 <div className="absolute -inset-20 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -84,7 +71,7 @@ export default function Projects() {
                     ))}
                   </div>
                 </div>
-              </motion.a>
+              </a>
             );
           })}
         </div>

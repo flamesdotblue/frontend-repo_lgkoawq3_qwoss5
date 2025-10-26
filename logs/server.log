@@ -3,49 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 277 ms
+  VITE v5.4.20  ready in 259 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.10.221:3000/
-6:10:36 PM [vite] Pre-transform error: Failed to resolve entry for package "framer-motion". The package may have incorrect main/module/exports specified in its package.json.
-6:10:36 PM [vite] Pre-transform error: Failed to resolve entry for package "framer-motion". The package may have incorrect main/module/exports specified in its package.json.
-6:10:36 PM [vite] Pre-transform error: Failed to resolve entry for package "framer-motion". The package may have incorrect main/module/exports specified in its package.json.
-6:10:50 PM [vite] Internal server error: Failed to resolve entry for package "framer-motion". The package may have incorrect main/module/exports specified in its package.json.
-  Plugin: vite:import-analysis
-  File: /home/workspace/src/components/Hero3D.jsx
-      at packageEntryFailure (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:46638:15)
-      at resolvePackageEntry (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:46635:3)
-      at tryNodeResolve (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:46451:16)
-      at ResolveIdContext.resolveId (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:46201:19)
-      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-      at async PluginContainer.resolveId (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49017:22)
-      at async TransformPluginContext.resolve (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49178:15)
-      at async normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64299:26)
-      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
-      at async Promise.all (index 2)
-6:10:51 PM [vite] Internal server error: Failed to resolve entry for package "framer-motion". The package may have incorrect main/module/exports specified in its package.json.
-  Plugin: vite:import-analysis
-  File: /home/workspace/src/components/Projects.jsx
-      at packageEntryFailure (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:46638:15)
-      at resolvePackageEntry (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:46635:3)
-      at tryNodeResolve (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:46451:16)
-      at ResolveIdContext.resolveId (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:46201:19)
-      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-      at async PluginContainer.resolveId (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49017:22)
-      at async TransformPluginContext.resolve (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49178:15)
-      at async normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64299:26)
-      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
-      at async Promise.all (index 2)
-6:10:51 PM [vite] Internal server error: Failed to resolve entry for package "framer-motion". The package may have incorrect main/module/exports specified in its package.json.
-  Plugin: vite:import-analysis
-  File: /home/workspace/src/components/Contact.jsx
-      at packageEntryFailure (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:46638:15)
-      at resolvePackageEntry (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:46635:3)
-      at tryNodeResolve (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:46451:16)
-      at ResolveIdContext.resolveId (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:46201:19)
-      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-      at async PluginContainer.resolveId (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49017:22)
-      at async TransformPluginContext.resolve (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49178:15)
-      at async normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64299:26)
-      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
-      at async Promise.all (index 2)
